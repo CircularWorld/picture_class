@@ -21,7 +21,9 @@ from tile_server import views
 
 urlpatterns  = [
     path('admin/', admin.site.urls),
-    path('', include('infer.urls')), # wdb
+    # path('', include('fruit_infer.urls')), # wdb
+    path('fruit_infer/', include('fruit_infer.urls')), # wdb
+    # path('tile_infer/', include('tile_infer.urls')), # wdb
     # path('tile/', include('tile_infer.urls')), #
     path('index/',views.showindex)
 ]

@@ -28,7 +28,7 @@ tile_server.zip解压后，目录及说明如下：
 
 ```python
 # tile_server: 项目主目录
-# infer: infer APP(预测)文件目录(按照Django规范创建)
+# fruit_infer: fruit_infer APP(预测)文件目录(按照Django规范创建)
 # model_freeze: 预测模型存放目录
 # request_infer_imgs: 待预测图像存放目录
 # templates: 静态文件目录

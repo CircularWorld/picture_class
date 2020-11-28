@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'infer',  # wdb
+    'fruit_infer',  # wdb
+    'tile_infer',  # wdb
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates'),
-                 os.path.join(BASE_DIR, 'infer/templates')],  # wdb
+                 os.path.join(BASE_DIR, 'fruit_infer/templates'),
+                 os.path.join(BASE_DIR, 'tile_infer/templates')
+                 ],  # wdb
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,7 +121,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # 设置静态资源 wdb
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "public_static"),  # 根目录静态资源
-                    # os.path.join(BASE_DIR, "static"),
-                    os.path.join(BASE_DIR, "infer/index_static"),  # infer APP的静态资源文件
+STATICFILES_DIRS = [
+                    # os.path.join(BASE_DIR, "public_static"),  # 根目录静态资源
+                    os.path.join(BASE_DIR, "static"),
+                    # os.path.join(BASE_DIR, "fruit_infer/index_static"),  # fruit_infer APP的静态资源文件
+                    # os.path.join(BASE_DIR, "tileinfer/index_static"),  # fruit_infer APP的静态资源文件
                     ]
