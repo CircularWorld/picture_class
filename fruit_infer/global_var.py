@@ -1,9 +1,9 @@
 # linux路径
 data_root_path = "/root/data/tarena/"  # 数据路径
 # freeze_model_dir = "model_freeze/" # 固化模型路径
-# fruits_freeze_model_dir = "fruits_model_freeze/" # 水果固化模型路径
-fruits_freeze_model_dir = "model_fruit/" # 水果固化模型路径
-tiles_freeze_model_dir = "tiles_model_freeze/" # 瓷砖固化模型路径
+fruits_freeze_model_dir = "fruits_model_freeze/" # 水果固化模型路径
+# fruits_freeze_model_dir = "model_fruit/" # 水果固化模型路径
+# tiles_freeze_model_dir = "tiles_model_freeze/" # 瓷砖固化模型路径
 
 # windows路径
 #data_root_path = "D:/handle_writting/data/"  # 数据路径
